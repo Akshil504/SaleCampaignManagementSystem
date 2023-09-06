@@ -17,7 +17,9 @@
 
 curl --location 'localhost:8080/products/getAllPaginationProducts?page=1&pageSize=10'
 
-Response : {
+Response : 
+{
+    
     "productList": [
         {
             "id": "89304749-0f74-4cb6-a81b-5579161d275a",
@@ -129,7 +131,9 @@ curl --location 'localhost:8080/campaigns/createCampaign'
 
 '
 
-Response : {
+Response : 
+{
+
     "id": "60946ae9-e5e7-4ad2-b89f-23d16ffb318f",
     "startDate": "2023-12-09",
     "endDate": "2023-09-17",
@@ -141,7 +145,11 @@ Response : {
 
 curl --location 'localhost:8080/campaigns/getAll'
 
-Response : [
+
+Response :
+
+[
+
     {
         "id": "268d6217-bed6-491b-877e-7dde42323cad",
         "startDate": "2023-12-09",
@@ -340,12 +348,15 @@ Response : [
     }
 ]
 
-Get All Price History : 
+4. Get All Price History : 
 
 curl --location 'localhost:8080/products/getAllPriceHistory'
 
-Response : [
+Response : 
+[
+
     {
+    
         "id": "c69a80f6-ba2e-40f7-acde-4adee12c1686",
         "productId": "89304749-0f74-4cb6-a81b-5579161d275a",
         "oldPrice": 0.0,
