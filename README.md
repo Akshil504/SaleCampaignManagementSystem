@@ -106,7 +106,7 @@ Response : {
 }
 
 
-Create Sale Campaign API : 
+2. Create Sale Campaign API : 
 
 curl --location 'localhost:8080/campaigns/createCampaign' 
 
@@ -137,7 +137,7 @@ Response : {
     "pid": "b9fb3b53-6824-4e82-92ad-6a60df6f5185"
 }
 
-Get All Campaign : 
+3. Get All Campaign : 
 
 curl --location 'localhost:8080/campaigns/getAll'
 
@@ -542,3 +542,5 @@ Response : [
         "changeTime": null
     }
 ]
+
+# Other Apis are also in the Repository
