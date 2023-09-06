@@ -4,12 +4,14 @@
 #Tools and technologies used: SpringBoot with Java version 17, Maven, H2 as database
 #Used Spring initializr for creating project.
 #Dependencies used
-Spring Web
-Spring Data JPA
-H2 Driver
-Lombok
-APIs
-#Below are the curl as asked - all APIs:
+1. Spring Web
+2. Spring Data JPA
+3. H2 Driver
+4. Lombok
+# APIs
+
+
+# Below are the curl as asked - all APIs:
 
 1. Paginated Product API :
 
